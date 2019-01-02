@@ -23,7 +23,7 @@ opt = parser.parse_args()
 
 # crnn params
 # 3p6m_third_ac97p8.pth
-crnn_model_path = 'models/mixed_second_finetune_acc97p7.pth'
+crnn_model_path = 'models/crnn_Rec_done_1_28125.pth'
 alphabet = str1
 nclass = len(alphabet)+1
 
